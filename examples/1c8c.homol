@@ -1,0 +1,81 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= 1C8C:A|PDBID|CHAIN|SEQUENCE
+         (64 letters)
+
+Database: 4931lib.fasta 
+           4931 sequences; 1,049,153 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+4cj0B                                                                  65   6e-13
+
+>4cj0B 
+          Length = 60
+
+ Score = 65.1 bits (157), Expect = 6e-13,   Method: Compositional matrix adjust.
+ Identities = 37/62 (59%), Positives = 41/62 (66%), Gaps = 10/62 (16%)
+
+Query: 4  VKFKYKGEEKQVDISKIKKVWR----VGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML 59
+          VKF   GEEK+VD SKIKKVWR     G ++ FTYD      GRG V E DAPKELL ML
+Sbjct: 3  VKFVSSGEEKEVDTSKIKKVWRNLTKYGTIVQFTYD------GRGYVRELDAPKELLDML 56
+
+Query: 60 AK 61
+          A+
+Sbjct: 57 AR 58
+
+
+  Database: 4931lib.fasta
+    Posted date:  Nov 25, 2015  8:09 PM
+  Number of letters in database: 1,049,153
+  Number of sequences in database:  4931
+  
+Lambda     K      H
+   0.312    0.130    0.360 
+
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 131,365
+Number of Sequences: 4931
+Number of extensions: 4236
+Number of successful extensions: 13
+Number of sequences better than  0.5: 1
+Number of HSP's better than  0.5 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 11
+Number of HSP's gapped (non-prelim): 1
+length of query: 64
+length of database: 1,049,153
+effective HSP length: 34
+effective length of query: 30
+effective length of database: 881,499
+effective search space: 26444970
+effective search space used: 26444970
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 55 (25.8 bits)
